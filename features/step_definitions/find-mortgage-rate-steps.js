@@ -54,7 +54,7 @@ module.exports = function () {
     //asserts that the 4 results were found
     resultsPage.returnedResultsHeader("We've found 4 mortgages for you")
 
-    //asserts that they contain 2,3,5,10 yrs fixed rate with no fees
+    //asserts that they contain 2,3,5,10 yrs fixed rate with fees
     return data.map(function (val, index) {
       resultsPage.displayedRates(val[0],val[1],val[2],index);
     });
@@ -72,7 +72,5 @@ module.exports = function () {
    return mortgageAppPage.verifyPageTitle(pageTitle);
 
   });
-
-
 
 }

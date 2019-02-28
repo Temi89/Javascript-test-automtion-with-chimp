@@ -5,7 +5,6 @@ export const locators =
     'mortgage rates': '#MortgagesNavItem > .subNavigation div:nth-child(2) li:nth-child(1) > a'
   }
 
-// module.exports = {
 
 export  function navigateToHomePage(url){
   browser.url(url)
