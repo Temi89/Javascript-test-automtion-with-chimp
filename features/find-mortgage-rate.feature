@@ -4,7 +4,6 @@ Feature: Find a mortgage rate
   I want to find the mortgage rates available
   So that I can decide whether to switch my mortgage to Nationwide
 
-#this could be broken down into different scenarios as well
 
 Background: Navigate to home page
     Given I open the url "https://www.nationwide.co.uk"
